@@ -138,7 +138,7 @@ export default function SimpsonsModalTrailer({
 
             {/* Video Container */}
             <div className="relative pt-[56.25%] bg-gray-900/10 m-2 rounded-lg overflow-hidden shadow-inner border border-white/10">
-              <div className="absolute inset-0 bg-gradient-to-br from-transparent via-white/10 to-white/5 pointer-events-none z-10"></div>
+              <div className="absolute inset-0 bg-linear-to-br from-transparent via-white/10 to-white/5 pointer-events-none z-10"></div>
               <iframe
                 src={embedUrl}
                 className="absolute top-0 left-0 w-full h-full rounded-lg"
