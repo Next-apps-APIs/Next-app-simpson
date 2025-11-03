@@ -9,6 +9,13 @@ const CharactersList = dynamic(() => import('../components/CharactersList'), {
   ssr: false,
 });
 
+const LocationsList = dynamic(() => import('../components/LocationsList'), {
+  ssr: false,
+});
+
+const EpisodesList = dynamic(() => import('../components/EpisodesList'), {
+  ssr: false,
+});
 
 
 export default function Home() {
@@ -42,6 +49,10 @@ export default function Home() {
       </section>
 
       <CharactersList />
+
+      <EpisodesList />
+
+      <LocationsList />
 
       <SimpsonsModalTrailer
         isOpen={isModalOpen}

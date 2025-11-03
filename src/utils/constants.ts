@@ -1,4 +1,4 @@
-export const API_BASE_URL = "https://thesimpsonsquoteapi.glitch.me";
+export const API_BASE_URL = "https://thesimpsonsapi.com/api";
 
 export const API_PATHS = {
   EPISODES: "/episodes",
