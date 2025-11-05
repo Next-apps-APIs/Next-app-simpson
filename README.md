@@ -1,36 +1,89 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+<p align="center">
+  <img src="./public/Clouds.jpg" alt="Simpsons Banner" width="800" />
+  
+</p>
 
-## Getting Started
+<p align="center">
+  <a href="https://nextjs.org"><img src="https://img.shields.io/badge/Next.js-16-black?logo=next.js" alt="Next.js 16" /></a>
+  <a href="https://react.dev"><img src="https://img.shields.io/badge/React-19-61DAFB?logo=react&logoColor=white" alt="React 19" /></a>
+  <a href="https://tailwindcss.com"><img src="https://img.shields.io/badge/TailwindCSS-4-38B2AC?logo=tailwindcss&logoColor=white" alt="Tailwind 4" /></a>
+  <a href="https://www.framer.com/motion/"><img src="https://img.shields.io/badge/Framer%20Motion-enabled-0055FF?logo=framer" alt="Framer Motion" /></a>
+</p>
 
-First, run the development server:
+# Simpsons Universe App
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+A Next.js app that brings the Simpsons universe together: Quotes, Characters, Episodes, Locations, and iconic phrases.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Table of Contents
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- [Project Overview](#project-overview)
+- [Features](#features)
+- [Tech Stack](#tech-stack)
+- [Scripts](#scripts)
+- [Getting Started (Project)](#getting-started-project)
+- [Project Structure](#project-structure)
+- [UI Preview](#ui-preview)
+- [Build and Deploy](#build-and-deploy)
+- [Notes](#notes)
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Project Overview
 
-## Learn More
+The Simpsons universe in one project: Quotes, Characters, Episodes, Locations, and iconic phrases from Springfield.
 
-To learn more about Next.js, take a look at the following resources:
+## Features
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- Quotes explorer with character attributions
+- Characters list with details
+- Episodes list with key info
+- Locations directory around Springfield
+- Modal trailer preview
+- Smooth transitions with Framer Motion
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Tech Stack
 
-## Deploy on Vercel
+- Next.js 16
+- React 19
+- Tailwind CSS 4
+- Framer Motion
+- React Icons
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Scripts
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- dev: next dev
+- build: next build
+- start: next start
+- lint: eslint
+
+## Getting Started (Project)
+
+1. Install dependencies: `npm install`
+2. Run the dev server: `npm run dev`
+3. Open http://localhost:3000
+
+## Project Structure
+
+- src/app: Routes and pages (App Router)
+- src/components: UI components
+- src/data: Static data (characters, episodes, locations)
+- public: Static assets
+
+## UI Preview
+
+<p align="center">
+  <img src="./public/Clouds.jpg" alt="Simpsons UI Preview" width="800" />
+</p>
+
+## Live Demo
+
+Add a link to your deployed app here.
+
+## Build and Deploy
+
+- Build: `npm run build`
+- Start: `npm start`
+- Deploy: Vercel or any Node-compatible host
+
+## Notes
+
+- Uses App Router and `next/font` optimizations
+- No environment variables required currently
